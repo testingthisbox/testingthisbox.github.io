@@ -372,8 +372,12 @@ function cellSelected(x,y,board)
     //if the cell that was clicked is a puzzle given which is 
     //registered as -1 val on the board
     //return [-1,-1] anyway (treat as neutral)
-    if (board[cellY][cellX] === -1)
+    if (cellY != -1 && cellX != -1)
+    {
+        if (board[cellY][cellX] === -1)
         return [1,-1];
+    }
+    
     else
         return [cellX, cellY]
 
