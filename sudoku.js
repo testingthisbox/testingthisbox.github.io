@@ -2,8 +2,8 @@
 //e.g. just a list of cells that are not accepting blocks
 //the code that determines the clicked cell can check against this list
 
-import * as Module from './modules/module.js';
-import * as InitBoard from './modules/initBoard.js'
+import * as Module from './module.js';
+import * as InitBoard from './initBoard.js'
 
 const thickPix = 5;
 const cellPix = 32;
