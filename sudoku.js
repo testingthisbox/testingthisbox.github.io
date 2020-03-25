@@ -29,7 +29,7 @@ document.addEventListener("DOMContentLoaded", () => {
     for (let count = 1; count <= numImages; count++)
     {
         let tempImg = document.createElement("img");
-        tempImg.src = "./images/" + count.toString() + ".png";
+        tempImg.src = count.toString() + ".png";
 
         tempImg.addEventListener('load', function () {
             //imageList.push(this);
