@@ -30,6 +30,7 @@ document.addEventListener("DOMContentLoaded", () => {
     {
         let tempImg = document.createElement("img");
         tempImg.src = count.toString() + ".png";
+        var z = 5;
 
         tempImg.addEventListener('load', function () {
             //imageList.push(this);
